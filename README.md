@@ -1,2 +1,2 @@
 # racingRetroGame
-A classic retro racing game using the retroGameEngine.
+A classic retro racing game using the retroConsoleGameEngine.
