@@ -1,0 +1,13 @@
+﻿  main.cpp
+C:\Users\jromano\Documents\git\racingRetroGame\retroCarRacing\retroConsoleGameEngine.h(649,1): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\jromano\Documents\git\racingRetroGame\retroCarRacing\retroConsoleGameEngine.h(991,1): warning C4267: 'return': conversion from 'size_t' to 'unsigned int', possible loss of data
+C:\Users\jromano\Documents\git\racingRetroGame\retroCarRacing\retroConsoleGameEngine.h(1088,1): warning C4312: 'type cast': conversion from 'DWORD' to 'retroConsoleGameEngine *' of greater size
+C:\Users\jromano\Documents\git\racingRetroGame\retroCarRacing\main.cpp(160,20): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\jromano\Documents\git\racingRetroGame\retroCarRacing\main.cpp(161,19): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\jromano\Documents\git\racingRetroGame\retroCarRacing\main.cpp(162,20): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\jromano\Documents\git\racingRetroGame\retroCarRacing\main.cpp(163,21): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\jromano\Documents\git\racingRetroGame\retroCarRacing\main.cpp(193,15): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\Users\jromano\Documents\git\racingRetroGame\retroCarRacing\main.cpp(239,17): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\jromano\Documents\git\racingRetroGame\retroCarRacing\main.cpp(240,17): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\jromano\Documents\git\racingRetroGame\retroCarRacing\main.cpp(241,22): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  retroCarRacing.vcxproj -> C:\Users\jromano\Documents\git\racingRetroGame\retroCarRacing\x64\Debug\retroCarRacing.exe

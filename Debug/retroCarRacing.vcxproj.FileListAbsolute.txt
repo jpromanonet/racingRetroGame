@@ -1,0 +1,2 @@
+C:\Users\jromano\Documents\git\racingRetroGame\retroCarRacing\Debug\retroCarRacing.exe
+C:\Users\jromano\Documents\git\racingRetroGame\retroCarRacing\Debug\retroCarRacing.pdb
