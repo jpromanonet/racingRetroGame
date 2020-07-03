@@ -272,7 +272,7 @@ protected:
 
 int main()
 {
-	// Use olcConsoleGameEngine derived app
+	// Use retroConsoleGameEngine derived app
 	retroCarRacing game;
 	game.ConstructConsole(160, 100, 8, 8);
 	game.Start();
