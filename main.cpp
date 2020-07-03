@@ -29,19 +29,23 @@ private:
 	// Accumulation of player curvature
 	float fPlayerCurvature = 0.0f;
 	// Current player speed
-	float fSpeed = 0.0f;			
+	float fSpeed = 0.0f;
 
-	vector<pair<float, float>> vecTrack; // Track sections, sharpness of bend, length of section
+	// Track sections, sharpness of bend, length of section
+	vector<pair<float, float>> vecTrack;
 
-	list<float> listLapTimes;		// List of previous lap times
-	float fCurrentLapTime;			// Current lap time
+	// List of previous lap times
+	list<float> listLapTimes;
+	// Current lap time
+	float fCurrentLapTime;
 
 protected:
-	// Called by olcConsoleGameEngine
+	// Called by retroConsoleGameEngine
 	virtual bool OnUserCreate()
 	{
 		// Define track
-		vecTrack.push_back(make_pair(0.0f, 10.0f));		// Short section for start/finish line
+		// Short section for start/finish line
+		vecTrack.push_back(make_pair(0.0f, 10.0f));		
 		vecTrack.push_back(make_pair(0.0f, 200.0f));
 		vecTrack.push_back(make_pair(1.0f, 200.0f));
 		vecTrack.push_back(make_pair(0.0f, 400.0f));
