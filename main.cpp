@@ -20,8 +20,9 @@ private:
 	// Current track curvature, lerped between track sections
 	float fCurvature = 0.0f;
 	// Accumulation of track curvature
-	float fTrackCurvature = 0.0f;	
-	float fTrackDistance = 0.0f;	// Total distance of track
+	float fTrackCurvature = 0.0f;
+	// Total distance of track
+	float fTrackDistance = 0.0f;	
 
 	float fCarPos = 0.0f;			// Current car position
 	float fPlayerCurvature = 0.0f;	// Accumulation of player curvature
