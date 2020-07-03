@@ -45,7 +45,7 @@ protected:
 	{
 		// Define track
 		// Short section for start/finish line
-		vecTrack.push_back(make_pair(0.0f, 10.0f));		
+		vecTrack.push_back(make_pair(0.0f, 10.0f));
 		vecTrack.push_back(make_pair(0.0f, 200.0f));
 		vecTrack.push_back(make_pair(1.0f, 200.0f));
 		vecTrack.push_back(make_pair(0.0f, 400.0f));
@@ -70,7 +70,7 @@ protected:
 
 
 
-	// Called by olcConsoleGameEngine
+	// Called by retroConsoleGameEngine
 	virtual bool OnUserUpdate(float fElapsedTime)
 	{
 		// Handle control input
