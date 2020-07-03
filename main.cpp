@@ -159,11 +159,13 @@ protected:
 			{
 				// Perspective is used to modify the width of the track row segments
 				float fPerspective = (float)y / (ScreenHeight() / 2.0f);
-				float fRoadWidth = 0.1f + fPerspective * 0.8f; // Min 10% Max 90%
+				// Min 10% Max 90%
+				float fRoadWidth = 0.1f + fPerspective * 0.8f;
 				float fClipWidth = fRoadWidth * 0.15f;
-				fRoadWidth *= 0.5f;	// Halve it as track is symmetrical around center of track, but offset...
+				// Halve it as track is symmetrical around center of track.
+				fRoadWidth *= 0.5f;
 
-				// ...depending on where the middle point is, which is defined by the current
+				// Depending on where the middle point is, which is defined by the current
 				// track curvature.
 				float fMiddlePoint = 0.5f + fCurvature * powf((1.0f - fPerspective), 3);
 
@@ -199,7 +201,6 @@ protected:
 
 		// Draw Car - car position on road is proportional to difference between
 		// current accumulated track curvature, and current accumulated player curvature
-		// i.e. if they are similar, the car will be in the middle of the track
 		fCarPos = fPlayerCurvature - fTrackCurvature;
 		int nCarPos = ScreenWidth() / 2 + ((int)(ScreenWidth() * fCarPos) / 2.0) - 7; // Offset for sprite
 
