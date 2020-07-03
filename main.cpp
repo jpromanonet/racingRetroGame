@@ -202,10 +202,10 @@ protected:
 		// Draw Car - car position on road is proportional to difference between
 		// current accumulated track curvature, and current accumulated player curvature
 		fCarPos = fPlayerCurvature - fTrackCurvature;
-		int nCarPos = ScreenWidth() / 2 + ((int)(ScreenWidth() * fCarPos) / 2.0) - 7; // Offset for sprite
+		// Offset for sprite
+		int nCarPos = ScreenWidth() / 2 + ((int)(ScreenWidth() * fCarPos) / 2.0) - 7;
 
-		// Draw a car that represents what the player is doing. Apologies for the quality
-		// of the sprite... :-(
+		// Draw a car that represents what the player is doing.
 		switch (nCarDirection)
 		{
 		case 0:
