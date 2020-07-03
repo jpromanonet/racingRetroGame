@@ -15,7 +15,8 @@ public:
 
 private:
 
-	float fDistance = 0.0f;			// Distance car has travelled around track
+	// Distance car has travelled around track
+	float fDistance = 0.0f;			
 	float fCurvature = 0.0f;		// Current track curvature, lerped between track sections
 	float fTrackCurvature = 0.0f;	// Accumulation of track curvature
 	float fTrackDistance = 0.0f;	// Total distance of track

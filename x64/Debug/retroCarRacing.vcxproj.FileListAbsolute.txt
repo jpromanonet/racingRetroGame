@@ -1,2 +1,4 @@
 C:\Users\jromano\Documents\git\racingRetroGame\retroCarRacing\x64\Debug\retroCarRacing.exe
 C:\Users\jromano\Documents\git\racingRetroGame\retroCarRacing\x64\Debug\retroCarRacing.pdb
+C:\Users\jromano\Documents\git\racingRetroGame\x64\Debug\retroCarRacing.exe
+C:\Users\jromano\Documents\git\racingRetroGame\x64\Debug\retroCarRacing.pdb
