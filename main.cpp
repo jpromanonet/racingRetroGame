@@ -27,8 +27,9 @@ private:
 	// Current car position
 	float fCarPos = 0.0f;
 	// Accumulation of player curvature
-	float fPlayerCurvature = 0.0f;	
-	float fSpeed = 0.0f;			// Current player speed
+	float fPlayerCurvature = 0.0f;
+	// Current player speed
+	float fSpeed = 0.0f;			
 
 	vector<pair<float, float>> vecTrack; // Track sections, sharpness of bend, length of section
 
